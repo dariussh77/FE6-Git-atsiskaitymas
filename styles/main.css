@@ -117,6 +117,39 @@ main{
 #buttons>div:hover{
     background-color:  rgba(255, 255, 255, 0.113);
 }
+#tabs{
+    width:500px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(24, 24, 24, 0.859);
+}
+#tabs>h1{
+    text-transform: uppercase;
+    color:white;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    letter-spacing: 7px;
+}
+#tabs>img{
+    border-radius: 5px;
+}
+#tabs>p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: white;
+}
+.x{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+.x>img{
+    width:30px
+}
 @media (min-width:756px){
     body{
         background-attachment: fixed;
