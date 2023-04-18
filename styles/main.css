@@ -72,3 +72,18 @@ main{
     text-underline-position: under;
     text-decoration-style:dotted;
 }
+.downspace{
+    display: flex;
+    justify-content: center;
+}
+.downspace>div{
+    width: 325px;
+    height: 40px;
+   border-top: 1px solid white; 
+}
+.downspace>div:first-child{
+    border-right: 1px solid white;
+}
+.downspace>div:last-child{
+    border-left: 1px solid white;
+}
