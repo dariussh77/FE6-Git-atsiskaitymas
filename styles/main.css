@@ -15,7 +15,7 @@ main{
     background-image: url(../resources/bg-overlay.png);
     height: 800px;
     background-position: center;
-    padding-top: 140px;
+    padding: 140px 20px 20px 20px;
 }
 #hero{
     display: flex;
@@ -36,21 +36,39 @@ main{
 }
 .meta{
     color: white;
-
 }
 .upspace{
     display: flex;
     justify-content: center;
 }
-.upspace>div:first-child{
+.upspace>div{
     width: 325px;
     height: 40px;
+   border-bottom: 1px solid white; 
+}
+.upspace>div:first-child{
     border-right: 1px solid white;
-    border-bottom: 1px solid white;
 }
 .upspace>div:last-child{
-    width: 325px;
-    height: 40px;
     border-left: 1px solid white;
-    border-bottom: 1px solid white;
+}
+.meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.meta>h1{
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.meta>p{
+    line-height: 2rem;
+    font-weight: 100;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+}
+.meta>p>span{
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-style:dotted;
 }
