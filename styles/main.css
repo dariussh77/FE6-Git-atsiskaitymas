@@ -140,9 +140,14 @@ main{
     border-radius: 5px;
 }
 #tabs>div>p{
+    align-self: center;
     letter-spacing: 1px;
     line-height: 2rem;
     color: white;
+}
+#tabs>div>p>i{
+    vertical-align:bottom;
+    font-size: 30px;
 }
 .x{
     position: absolute;
@@ -173,7 +178,7 @@ main{
 
 
 /* mobile first */
-@media (min-width:756px){
+@media (min-width:1000px){
     body{
         background-attachment: fixed;
     }
@@ -193,7 +198,7 @@ main{
         font-size: 40px;
     }
     #tabs>div{
-        width:720px;
+        width:900px;
         padding: 20px;
     }
 }
