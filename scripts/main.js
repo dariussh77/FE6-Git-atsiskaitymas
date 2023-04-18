@@ -1,5 +1,5 @@
-const text1='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores accusamus voluptas repellat amet aliquam voluptatem officiis ex, dolorem eveniet veniam id rem animi, sequi quaerat recusandae!  Aliquid velit ad porro reiciendis laboriosam maxime asperiores?';
-const text2='Esse maxime praesentium accusantium rerum, voluptate temporibus veniam nihil molestias impedit quaerat ipsa vero sapiente, sunt aperiam quidem perspiciatis, molestiae recusandae modi suscipit consequatur distinctio aliquam nam consectetur. Odio, dolores ut.';
+const text1='Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores erat recusandae!  Aliquid velit ad porro reiciendis laboriosam maxime asperiores?';
+const text2='Esse maxime praesentium accusantium rerum, voluptate temporibus veniam nihil molestias etur. Odio, dolores ut.';
 let qIntro=document.querySelector('#intro');
 qIntro.addEventListener('click',()=>{
     let qhero=document.querySelector('#hero');
