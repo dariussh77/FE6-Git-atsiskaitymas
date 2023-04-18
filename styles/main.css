@@ -4,7 +4,9 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-image: url(../resources/bg.jpg);
+    background-repeat: no-repeat;
+    background: rgba(0, 0, 0, 0.2) url(../resources/bg.jpg);
+    background-blend-mode:darken;
     height: 800px;
     background-size: cover;
     background-position: center;
@@ -12,31 +14,43 @@ body{
 main{
     background-image: url(../resources/bg-overlay.png);
     height: 800px;
-    background-size:cover;
     background-position: center;
     padding-top: 140px;
-}
-.germ{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100px;
-    border:2px solid white;
-    border-radius: 50px;
 }
 #hero{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.germ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border:1px solid white;
+    border-radius: 45px;
+}
 .germ>img{
-    height: 32px;
+    height: 37px;
 }
 .meta{
     color: white;
 
 }
 .upspace{
-    
+    display: flex;
+    justify-content: center;
+}
+.upspace>div:first-child{
+    width: 325px;
+    height: 40px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.upspace>div:last-child{
+    width: 325px;
+    height: 40px;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
 }
