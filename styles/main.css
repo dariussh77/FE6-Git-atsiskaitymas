@@ -146,10 +146,29 @@ main{
     position: absolute;
     right:20px;
     top:20px;
+    animation-play-state: paused;
 }
 .x>img{
     width:30px
 }
+/* animacija */
+.x:hover {
+    transform: rotate(0deg);
+    transform-origin: center;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-name: suktukas;
+}
+.animPvz>div:hover {
+    animation-play-state: paused;
+}
+@keyframes suktukas {
+    0% {
+        transform: rotate(90deg);
+    }
+}
+/* mobile first */
 @media (min-width:756px){
     body{
         background-attachment: fixed;
