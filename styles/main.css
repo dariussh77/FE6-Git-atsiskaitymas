@@ -117,7 +117,7 @@ main{
 #buttons>div:hover{
     background-color:  rgba(255, 255, 255, 0.113);
 }
-#tabs{
+#tabs>div{
     width:500px;
     padding: 70px;
     display: flex;
@@ -126,7 +126,7 @@ main{
     position: relative;
     background-color: rgba(24, 24, 24, 0.859);
 }
-#tabs>h1{
+#tabs>div>h1{
     text-transform: uppercase;
     color:white;
     font-weight: 700;
@@ -134,10 +134,10 @@ main{
     text-decoration: underline;
     letter-spacing: 7px;
 }
-#tabs>img{
+#tabs>div>img{
     border-radius: 5px;
 }
-#tabs>p{
+#tabs>div>p{
     letter-spacing: 1px;
     line-height: 2rem;
     color: white;
@@ -160,14 +160,16 @@ main{
     animation-play-state: running;
     animation-name: suktukas;
 }
-.animPvz>div:hover {
-    animation-play-state: paused;
-}
 @keyframes suktukas {
     0% {
         transform: rotate(90deg);
     }
 }
+.displayNone{
+    display:none !important;
+}
+
+
 /* mobile first */
 @media (min-width:756px){
     body{
@@ -188,7 +190,7 @@ main{
         padding-top:10px;
         font-size: 40px;
     }
-    #tabs{
+    #tabs>div{
         width:720px;
         padding: 20px;
     }
