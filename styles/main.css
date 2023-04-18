@@ -169,4 +169,8 @@ main{
         padding-top:10px;
         font-size: 40px;
     }
+    #tabs{
+        width:720px;
+        padding: 20px;
+    }
 }
