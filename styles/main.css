@@ -14,4 +14,26 @@ main{
     height: 100vh;
     background-size: cover;
     background-position: center;
+    padding-top: 15vh;
+}
+.germ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border:2px solid white;
+    border-radius: 50px;
+}
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.germ>img{
+    height: 32px;
+}
+.meta{
+    color: white;
+
 }
