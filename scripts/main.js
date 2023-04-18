@@ -49,10 +49,10 @@ qWork.addEventListener('click',()=>{
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
     let img=document.createElement('img');
-    img.setAttribute('src','./resources/desktoptab.jpg');
-    img.setAttribute('alt', 'Kosminė stotis');
+    img.setAttribute('src','./resources/WORKS-og.png');
+    img.setAttribute('alt', 'Works');
     let h1=document.createElement('h1');
-    let h1Text=document.createTextNode('Work');
+    let h1Text=document.createTextNode('Works');
     h1.appendChild(h1Text);
     let p1=document.createElement('p');
     let p1Text=document.createTextNode(text1);
@@ -88,8 +88,8 @@ qAbout.addEventListener('click',()=>{
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
     let img=document.createElement('img');
-    img.setAttribute('src','./resources/desktoptab.jpg');
-    img.setAttribute('alt', 'Kosminė stotis');
+    img.setAttribute('src','./resources/team.jpg');
+    img.setAttribute('alt', 'Komanda');
     let h1=document.createElement('h1');
     let h1Text=document.createTextNode('About');
     h1.appendChild(h1Text);
@@ -127,8 +127,8 @@ qContacts.addEventListener('click',()=>{
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
     let img=document.createElement('img');
-    img.setAttribute('src','./resources/desktoptab.jpg');
-    img.setAttribute('alt', 'Kosminė stotis');
+    img.setAttribute('src','./resources/contacts.png');
+    img.setAttribute('alt', 'Kontaktai');
     let h1=document.createElement('h1');
     let h1Text=document.createTextNode('Contacts');
     h1.appendChild(h1Text);

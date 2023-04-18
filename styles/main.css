@@ -72,13 +72,15 @@ main{
     text-transform:uppercase;
     letter-spacing: 3px;
 }
-.meta>p>span{
+.meta>p>a{
+    color: white;
+    text-decoration: none;
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-style:dotted;
     cursor: pointer;
 }
-.meta>p>span:hover{
+.meta>p>a:hover{
     color: rgb(71, 114, 214);
 }
 .downspace{
@@ -118,7 +120,7 @@ main{
     background-color:  rgba(255, 255, 255, 0.113);
 }
 #tabs>div{
-    width:500px;
+    width:470px;
     padding: 70px;
     display: flex;
     flex-direction: column;
