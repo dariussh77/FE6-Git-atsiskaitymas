@@ -48,7 +48,7 @@ qWork.addEventListener('click',()=>{
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
     let img=document.createElement('img');
-    img.setAttribute('src','./resources/WORKS-og.png');
+    img.setAttribute('src','./resources/tab-2.jpg');
     img.setAttribute('alt', 'Works');
     let h1=document.createElement('h1');
     let h1Text=document.createTextNode('Works');
@@ -87,7 +87,7 @@ qAbout.addEventListener('click',()=>{
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
     let img=document.createElement('img');
-    img.setAttribute('src','./resources/team.jpg');
+    img.setAttribute('src','./resources/tab-3.jpg');
     img.setAttribute('alt', 'Komanda');
     let h1=document.createElement('h1');
     let h1Text=document.createTextNode('About');
@@ -126,7 +126,7 @@ qContacts.addEventListener('click',()=>{
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
     let img=document.createElement('img');
-    img.setAttribute('src','./resources/contacts.png');
+    img.setAttribute('src','./resources/tab-4.jpg');
     img.setAttribute('alt', 'Kontaktai');
     let h1=document.createElement('h1');
     let h1Text=document.createTextNode('Contacts');
