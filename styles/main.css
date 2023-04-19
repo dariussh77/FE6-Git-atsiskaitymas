@@ -140,6 +140,9 @@ main{
 #tabs>div>img{
     border-radius: 5px;
 }
+#tabs>div>iframe{
+    border: none;
+}
 #tabs>div>p{
     align-self: center;
     letter-spacing: 1px;

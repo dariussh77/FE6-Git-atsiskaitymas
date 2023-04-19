@@ -9,9 +9,8 @@ qIntro.addEventListener('click',()=>{
 
     let qtabs=document.querySelector('#tabs');
     let div=document.createElement('div');
-    let img=document.createElement('img');
-    img.setAttribute('src','./resources/desktoptab.jpg');
-    img.setAttribute('alt', 'Kosminė stotis');
+    let img=document.createElement('iframe');
+    img.setAttribute('src','./resources/tab-1.mp4');
     let h1=document.createElement('h1');
     let h1Text=document.createTextNode('Intro');
     h1.appendChild(h1Text);
